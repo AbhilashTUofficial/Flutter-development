@@ -1,3 +1,4 @@
+import 'package:covid19_dashboard/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,12 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Covid19 Dashboard',
       theme: ThemeData(
-
+        visualDensity: VisualDensity.adaptivePlatformDensity,
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
       ),
-      //home: ,
+      home: BottomNavScreen(),
     );
   }
 }

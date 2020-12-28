@@ -1,3 +1,4 @@
+import 'package:covid19_dashboard/widgets/customAppBar.dart';
 import 'package:flutter/material.dart';
 class HomeScreen extends StatefulWidget {
   @override
@@ -8,7 +9,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      appBar: CustomAppBar(),
     );
   }
 }

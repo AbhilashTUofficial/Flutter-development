@@ -9,7 +9,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String _country='USA';
+  String _country = 'USA';
+
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
@@ -47,9 +48,63 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 25.0),
                 ),
                 CountryDropdown(
-                  countries: ['CN','FR','IN','IT','UK','USA'],
+                  countries: ['CN', 'FR', 'IN', 'IT', 'UK', 'USA'],
                   country: _country,
-                  onChanged: (val)=>setState(()=>_country=val),
+                  onChanged: (val) => setState(() => _country = val),
+                ),
+              ],
+            ),
+            SizedBox(height: screenHeight * 0.03),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Are you feeling sick?',
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w600),
+                ),
+                SizedBox(height: screenHeight * 0.01),
+                Text(
+                  'If you '
+                  'feel sick with any COVID-19 symptoms, please call or text '
+                  'us for help',
+                  style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.white70,
+                      fontWeight: FontWeight.w600),
+                ),
+                SizedBox(height: screenHeight * 0.03),
+                Row(
+                  children: [
+                    FlatButton.icon(
+                      label: Text(
+                        'Call Now',
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      onPressed: () {},
+                      icon: const Icon(Icons.phone, color: Colors.white),
+                      color: Colors.redAccent,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30.0)),
+                    ),
+                    SizedBox(width: 10),
+                    FlatButton.icon(
+                      label: Text(
+                        'SMS',
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      color: Colors.green,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30.0)),
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.email,
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
                 )
               ],
             )

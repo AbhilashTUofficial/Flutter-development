@@ -1,6 +1,7 @@
 import 'package:covid19_dashboard/config/palette.dart';
 import 'package:covid19_dashboard/widgets/countryDropdown.dart';
 import 'package:covid19_dashboard/widgets/customAppBar.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,6 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
         physics: ClampingScrollPhysics(),
         slivers: [
           _buildHeader(screenHeight),
+          _buildPreventionTips(screenHeight),
+          _buildYourOwnTest(screenHeight),
         ],
       ),
     );
@@ -105,6 +108,94 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     )
                   ],
+                )
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  SliverToBoxAdapter _buildPreventionTips(double screenHeight) {
+    return SliverToBoxAdapter(
+      child: Container(
+        padding: EdgeInsets.all(20.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Prevention Tips',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(children: [
+                  Image.asset(
+                    'assets/images/mask.png',
+                    height: screenHeight * 0.12,
+                  ),
+                  SizedBox(height: 12),
+                  Text('Wear a mask')
+                ]),
+                Column(children: [
+                  Image.asset(
+                    'assets/images/distance.png',
+                    height: screenHeight * 0.12,
+                  ),
+                  SizedBox(height: 12),
+                  Text('Keep your distance')
+                ]),
+                Column(children: [
+                  Image.asset(
+                    'assets/images/wash_hands.png',
+                    height: screenHeight * 0.12,
+                  ),
+                  SizedBox(height: 12),
+                  Text('Wash your hands')
+                ]),
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  SliverToBoxAdapter _buildYourOwnTest(double screenHeight) {
+    return SliverToBoxAdapter(
+      child: Container(
+        margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+        height: screenHeight * 0.15,
+        decoration: BoxDecoration(
+          gradient:
+              LinearGradient(colors: [Color(0xffad9fe4), Palette.primaryColor]),
+          borderRadius: BorderRadius.circular(20.0),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Image.asset('assets/images/own_test.png'),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Do your own test',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 6),
+                Text(
+                  'Follow the instructions\nto do your own test',
+                  style: TextStyle(
+                      color: Colors.white70,
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold),
                 )
               ],
             )

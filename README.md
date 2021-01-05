@@ -1,5 +1,5 @@
 # Flutter programming
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Learn to flutter is one of the greatest things I have ever done. Flutter is fairly easy and also it is very fun to use, figuring out the codes from online documents and stack overflow, watching the youtube video, building a new widget for later use, or even building a clone app is very fun and interesting.
 <br/>
 ### Languages & tools :
 [<img align="left" alt="Android studio" width="26px" src="https://github.com/AbhilashTUofficial/AbhilashTuofficial/blob/main/logos/tools/androidstudio.png">][android]
@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png">][github]
 [<img align="left" alt="Dart" width="26px" src="https://github.com/AbhilashTUofficial/AbhilashTuofficial/blob/main/logos/tools/dart.png">][dart]
 [<img align="left" alt="Flutter" width="34px" src="https://github.com/AbhilashTUofficial/AbhilashTuofficial/blob/main/logos/tools/flutter.png">][flutter]
-<br/>
+<br/><br/>
 ![GitHub last commit](https://img.shields.io/github/last-commit/AbhilashTUofficial/Flutter-programming?color=blue&label=Last%20Commit%3A&style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AbhilashTUofficial/Flutter-programming?label=Repo%20Size%3A&style=for-the-badge)
 ### Connect with me :  

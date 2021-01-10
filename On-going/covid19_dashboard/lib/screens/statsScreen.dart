@@ -1,8 +1,8 @@
 import 'package:bubble_tab_indicator/bubble_tab_indicator.dart';
 import 'package:covid19_dashboard/config/palette.dart';
 import 'package:covid19_dashboard/config/style.dart';
-import 'package:covid19_dashboard/widgets/customAppBar.dart';
-import 'package:covid19_dashboard/widgets/statsGrid.dart';
+import 'package:covid19_dashboard/data/data.dart';
+import 'package:covid19_dashboard/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class StatsScreen extends StatefulWidget {
@@ -26,6 +26,14 @@ class _StatsScreenState extends State<StatsScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 10),
             sliver: SliverToBoxAdapter(
               child: StatsGrid(),
+            ),
+          ),
+          SliverPadding(
+            padding: const EdgeInsets.only(top: 20),
+            sliver: SliverToBoxAdapter(
+              child: CovidChart(
+                cases: covidUSADailyNewsCases,
+              ),
             ),
           )
         ],

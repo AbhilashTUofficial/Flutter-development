@@ -26,6 +26,7 @@ dependencies:
   cupertino_icons: ^1.0.1
   bubble_tab_indicator: ^0.1.4
   fl_chart: ^0.9.4
+  table_calendar: ^2.3.3
 
 dev_dependencies:
   flutter_test:

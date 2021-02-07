@@ -20,6 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea5061ad-32b1-43df-adf6-82093974b7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Img/ChatApp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/ChatApp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/GoogleClassroom3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/GoogleClassroom4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/TravelApp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/TravelApp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/WhatsApp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/WhatsApp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/WhatsApp3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/WhatsApp4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finished/ng_chat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finished/ng_chat/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Finished/ng_chat/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finished/ng_travels_app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finished/ng_travels_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Finished/ng_travels_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finished/whatsapp_clone/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Finished/whatsapp_clone/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

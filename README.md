@@ -11,9 +11,9 @@ Learn to flutter is one of the greatest things I have ever done. Flutter is fair
 ![GitHub last commit](https://img.shields.io/github/last-commit/AbhilashTUofficial/Flutter-programming?color=blue&label=Last%20Commit%3A&style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AbhilashTUofficial/Flutter-programming?label=Repo%20Size%3A&style=for-the-badge)
 ## Covid19 DashBoard
-|Home| statistics |
-|------|-------|
-|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/Covid19DashBoard1.png" width="400">|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/Covid19DashBoard2.png" width="400">|
+|Covid19 Home| Covid19 stats |Classroom Home|Classroom Stream|
+|------|-------|-------|------|
+|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/Covid19DashBoard1.png" width="200">|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/Covid19DashBoard2.png" width="200">|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/GoogleClassroom1.png" width="200">|<img src="https://github.com/AbhilashTUofficial/Flutter-programming/blob/main/Img/GoogleClassroom2.png" width="200">|
 ### Connect with me :  
 <a href="https://github.com/AbhilashTUofficial" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />

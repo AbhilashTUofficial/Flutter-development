@@ -155,10 +155,10 @@ class _NewsState extends State<News> {
             ),
             Container(
               margin: EdgeInsets.symmetric(vertical: 10),
-              width: MediaQuery.of(context).size.width-40,
+              width: MediaQuery.of(context).size.width - 40,
               height: 60,
               decoration: BoxDecoration(
-                color: Colors.white,
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
@@ -167,6 +167,131 @@ class _NewsState extends State<News> {
                       blurRadius: 5,
                     ),
                   ]),
+              child: Row(
+                children: [
+                  Container(
+                      margin: EdgeInsets.only(left: 20, right: 5),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(recentList[3].imgUrl),
+                      )),
+                  Container(
+                      margin: EdgeInsets.only(left: 5, right: 5),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(recentList[4].imgUrl),
+                      )),
+                  Container(
+                    margin: EdgeInsets.only(left: 5, right: 5),
+                    child: Container(
+                      alignment: Alignment.center,
+                      height: 45,
+                      width: 45,
+                      decoration: BoxDecoration(
+                          color: Colors.lightGreen,
+                          borderRadius: BorderRadius.circular(50)),
+                      child: Icon(
+                        Icons.exposure_plus_2_sharp,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 180,
+                    ),
+                    child: Icon(
+                      Icons.thumb_up,
+                      color: Colors.lightGreen,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 10),
+              width: MediaQuery.of(context).size.width - 40,
+              height: 60,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[300],
+                      offset: Offset(2, 2),
+                      blurRadius: 5,
+                    ),
+                  ]),
+              child: Row(
+                children: [
+                  Container(
+                      margin: EdgeInsets.only(left: 20, right: 5),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(recentList[1].imgUrl),
+                      )),
+
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 280,
+                    ),
+                    child: Icon(
+                      Icons.thumb_down,
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 10),
+              width: MediaQuery.of(context).size.width - 40,
+              height: 60,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[300],
+                      offset: Offset(2, 2),
+                      blurRadius: 5,
+                    ),
+                  ]),
+              child: Row(
+                children: [
+                  Container(
+                      margin: EdgeInsets.only(left: 20, right: 5),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(recentList[3].imgUrl),
+                      )),
+                  Container(
+                      margin: EdgeInsets.only(left: 5, right: 5),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(recentList[4].imgUrl),
+                      )),
+                  Container(
+                    margin: EdgeInsets.only(left: 5, right: 5),
+                    child: Container(
+                      alignment: Alignment.center,
+                      height: 45,
+                      width: 45,
+                      decoration: BoxDecoration(
+                          color: Colors.lightGreen,
+                          borderRadius: BorderRadius.circular(50)),
+                      child: Icon(
+                        Icons.exposure_plus_1_sharp,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 180,
+                    ),
+                    child: Icon(
+                      Icons.comment,
+                      color: Colors.lightGreen,
+                    ),
+                  ),
+                ],
+              ),
             )
           ],
         ),

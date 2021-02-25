@@ -10,7 +10,7 @@ class CustomAppBar extends StatelessWidget {
       title: Container(
         margin: EdgeInsets.only(top: 35, left: 10),
         child: Text(
-          "News App",
+          "Social Media App",
           style: TextStyle(fontSize: 27, color: Colors.black87),
         ),
       ),
